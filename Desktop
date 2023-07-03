@@ -1,0 +1,16 @@
+package org.system;
+
+public class DeskTop extends Computer {
+	
+	public void desktopSize() {
+	 System.out.println("This is desktop method");
+	 
+
+	}
+	public static void main(String[] args) {
+		DeskTop d1 = new DeskTop();
+		 d1.computerModel();
+		 d1.desktopSize();
+	}
+
+}
