@@ -1,0 +1,35 @@
+package org.system;
+
+public class Students {
+
+	public void getStudentInfo(int a) {
+		System.out.println("student id number = 6010515");
+
+	}
+
+	public void getStudentInfo(String a) {
+		System.out.println("student name = gokul raj");
+
+	}
+
+	public void getStudentInfo(String b, int c) {
+		System.out.println("student email id = gkrajg@outlook.com");
+
+	}
+
+	public void getStudentInfo(int d, float c) {
+		System.out.println("student phone nnumber = 7157118400");
+
+	}
+
+	public static void main(String[] args) {
+		System.out.println("Below all the values are called by arugmemt");
+		Students s1 = new Students();
+		s1.getStudentInfo(1);
+		s1.getStudentInfo("gokul");
+		s1.getStudentInfo(4, 0.1f);
+		s1.getStudentInfo("raj", 4);
+
+	}
+
+}
