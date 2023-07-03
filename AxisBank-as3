@@ -1,0 +1,20 @@
+package org.system;
+
+public class AxisBank extends BankInfo{
+	
+	public void deposite() {
+		System.out.println("this is deposite method from bankinfo now extend from Axisbank");
+		
+
+}
+	public static void main(String[] args) {
+		
+		System.out.println("bankinfo to axisbank overrided");
+		AxisBank ab1 = new AxisBank();
+		ab1.deposite();
+		ab1.fixed();
+		ab1.saving();
+		
+		
+	}
+}
