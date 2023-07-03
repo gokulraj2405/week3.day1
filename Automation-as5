@@ -1,0 +1,28 @@
+package org.system;
+
+public class Automation extends MultipleLangauge {
+
+	public static void main(String[] args) {
+		System.out.println("All the methods are implemented in automation class");
+		Automation a1 = new Automation();
+		a1.python();
+		a1.ruby();
+		a1.Selenium();
+	}
+
+	public void ruby() {
+		System.out.println("this testtool method from multiple language abstarct class ");
+
+	}
+
+	public void java() {
+		System.out.println("java method from language interface");
+
+	}
+
+	public void Selenium() {
+		System.out.println("selenium method from testtool inter face");
+
+	}
+
+}
