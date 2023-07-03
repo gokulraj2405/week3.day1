@@ -1,0 +1,36 @@
+package org.system;
+
+public class Student extends Department {
+
+	public void StudentName() {
+
+		System.out.println(" this is student name method");
+
+	}
+
+	public void StudentDept() {
+
+		System.out.println(" this is student dept method");
+
+	}
+
+	public void StudentId() {
+
+		System.out.println(" this is studnet id method");
+
+	}
+
+	public static void main(String[] args) {
+
+		System.out.println("All the parent class methods called here ");
+		Student s1 = new Student();
+		s1.collegeCode();
+		s1.collegeName();
+		s1.collegeRank();
+		s1.deptName();
+		s1.StudentDept();
+		s1.StudentDept();
+		s1.StudentId();
+	}
+
+}
