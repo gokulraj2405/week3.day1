@@ -1,0 +1,29 @@
+package org.system;
+
+public class College {
+
+	public void collegeName() {
+		
+		System.out.println(" this is college name method");
+		
+
+	}
+	
+	public void collegeCode() {
+		System.out.println(" this is college Rank method");
+		
+		
+
+	}
+	
+	public void collegeRank() {
+		System.out.println(" this is college Rank method");
+		
+
+	}
+	
+	
+	
+	
+	
+}
